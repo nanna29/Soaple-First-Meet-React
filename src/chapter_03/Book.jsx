@@ -1,6 +1,8 @@
 import React from "react";
 
 export default function Book(props) {
+  // Library 에서 넘어온 name과 numOfPage의 값이 props에 담겨서 옴
+  console.log(props);
   return (
     <div>
       <h1>{`이 책의 이름은 ${props.name}입니다.`}</h1>
